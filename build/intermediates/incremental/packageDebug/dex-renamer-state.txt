@@ -1,0 +1,7 @@
+#Sun Dec 25 18:42:57 BRST 2016
+base.0=C\:\\Users\\Jabel\\AndroidStudioProjects\\Agenda\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_cf3cfe9dba971b4890e82af64bec5c2e2979cf9b
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Jabel\\AndroidStudioProjects\\Agenda\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_602dbdd2c68d08cf494deb8d9f333c63723f3ae7\\classes.dex
+base.1=C\:\\Users\\Jabel\\AndroidStudioProjects\\Agenda\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_602dbdd2c68d08cf494deb8d9f333c63723f3ae7
+file.0=C\:\\Users\\Jabel\\AndroidStudioProjects\\Agenda\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_cf3cfe9dba971b4890e82af64bec5c2e2979cf9b\\classes.dex

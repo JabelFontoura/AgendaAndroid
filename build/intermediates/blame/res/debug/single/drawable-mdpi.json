@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\Jabel\\AndroidStudioProjects\\Agenda\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_confirmar.png",
+        "source": "C:\\Users\\Jabel\\AndroidStudioProjects\\Agenda\\app\\src\\main\\res\\drawable-mdpi\\ic_confirmar.png"
+    },
+    {
+        "merged": "C:\\Users\\Jabel\\AndroidStudioProjects\\Agenda\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Jabel\\AndroidStudioProjects\\Agenda\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Jabel\\AndroidStudioProjects\\Agenda\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_opcoes.png",
+        "source": "C:\\Users\\Jabel\\AndroidStudioProjects\\Agenda\\app\\src\\main\\res\\drawable-mdpi\\ic_opcoes.png"
+    },
+    {
+        "merged": "C:\\Users\\Jabel\\AndroidStudioProjects\\Agenda\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_no_image.png",
+        "source": "C:\\Users\\Jabel\\AndroidStudioProjects\\Agenda\\app\\src\\main\\res\\drawable-mdpi\\ic_no_image.png"
+    },
+    {
+        "merged": "C:\\Users\\Jabel\\AndroidStudioProjects\\Agenda\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_enviar.png",
+        "source": "C:\\Users\\Jabel\\AndroidStudioProjects\\Agenda\\app\\src\\main\\res\\drawable-mdpi\\ic_enviar.png"
+    },
+    {
+        "merged": "C:\\Users\\Jabel\\AndroidStudioProjects\\Agenda\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_camera.png",
+        "source": "C:\\Users\\Jabel\\AndroidStudioProjects\\Agenda\\app\\src\\main\\res\\drawable-mdpi\\ic_camera.png"
+    },
+    {
+        "merged": "C:\\Users\\Jabel\\AndroidStudioProjects\\Agenda\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_receber.png",
+        "source": "C:\\Users\\Jabel\\AndroidStudioProjects\\Agenda\\app\\src\\main\\res\\drawable-mdpi\\ic_receber.png"
+    },
+    {
+        "merged": "C:\\Users\\Jabel\\AndroidStudioProjects\\Agenda\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_preferencias.png",
+        "source": "C:\\Users\\Jabel\\AndroidStudioProjects\\Agenda\\app\\src\\main\\res\\drawable-mdpi\\ic_preferencias.png"
+    },
+    {
+        "merged": "C:\\Users\\Jabel\\AndroidStudioProjects\\Agenda\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_mapa.png",
+        "source": "C:\\Users\\Jabel\\AndroidStudioProjects\\Agenda\\app\\src\\main\\res\\drawable-mdpi\\ic_mapa.png"
+    }
+]
