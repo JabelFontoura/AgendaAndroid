@@ -17,13 +17,10 @@ import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.AdapterContextMenuInfo;
 import android.widget.AdapterView.OnItemClickListener;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import com.fontoura.jabel.agenda.adapter.AlunosAdapter;
-import com.fontoura.jabel.agenda.converter.AlunoConverter;
 import com.fontoura.jabel.agenda.dao.AlunoDAO;
 import com.fontoura.jabel.agenda.model.Aluno;
 
