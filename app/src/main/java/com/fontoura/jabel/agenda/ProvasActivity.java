@@ -1,7 +1,6 @@
 package com.fontoura.jabel.agenda;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
@@ -41,11 +40,11 @@ public class ProvasActivity extends AppCompatActivity {
             detalhesFragment.setArguments(parametros);
 
             tx.replace(R.id.frame_principal, detalhesFragment);
+            tx.addToBackStack(null);
             tx.commit();
         }else{
             DetalhesProvaFragment detalhesFragment = (DetalhesProvaFragment) manager.findFragmentById(R.id.frame_secundario);
             detalhesFragment.populaCampos(prova);
-
         }
     }
 }

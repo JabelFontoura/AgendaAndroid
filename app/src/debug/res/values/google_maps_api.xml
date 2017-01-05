@@ -1,0 +1,19 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=F1:FB:BA:EC:CB:5A:BA:94:09:D4:57:80:CF:14:A0:41:F7:DE:45:89%3Bcom.fontoura.jabel.agenda
+
+    You can also add your credentials to an existing key, using this line:
+    F1:FB:BA:EC:CB:5A:BA:94:09:D4:57:80:CF:14:A0:41:F7:DE:45:89;com.fontoura.jabel.agenda
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAew9hQo429B-PWS1J-91OSR7Z2eDBxcP0</string>
+</resources>

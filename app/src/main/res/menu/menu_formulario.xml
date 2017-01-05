@@ -5,7 +5,7 @@
     tools:context="com.fontoura.jabel.agenda.FormularioActivity">
     <item
         android:id="@+id/menu_formulario_ok"
-        android:title="OK"
+        android:title="@string/menu_ok"
         android:icon="@drawable/ic_confirmar"
         app:showAsAction="always"/>
 
