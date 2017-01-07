@@ -17,15 +17,13 @@ import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.AdapterContextMenuInfo;
 import android.widget.AdapterView.OnItemClickListener;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import com.fontoura.jabel.agenda.adapter.AlunosAdapter;
-import com.fontoura.jabel.agenda.converter.AlunoConverter;
 import com.fontoura.jabel.agenda.dao.AlunoDAO;
 import com.fontoura.jabel.agenda.model.Aluno;
+import com.fontoura.jabel.agenda.task.EnviaAlunosTask;
 
 import java.util.List;
 
@@ -94,6 +92,16 @@ public class ListaAlunosActivity extends AppCompatActivity {
         switch (item.getItemId()){
             case R.id.menu_enviar_notas:
                 new EnviaAlunosTask(this).execute();
+                break;
+
+            case R.id.menu_baixar_provas:
+                Intent vaiParaProva = new Intent(this, ProvasActivity.class);
+                startActivity(vaiParaProva);
+                break;
+
+            case R.id.menu_mapa:
+                Intent vaiParaMapa = new Intent(this, MapaActivity.class);
+                startActivity(vaiParaMapa);
                 break;
         }
         return super.onOptionsItemSelected(item);

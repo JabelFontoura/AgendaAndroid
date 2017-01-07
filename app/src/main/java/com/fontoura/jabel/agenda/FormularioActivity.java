@@ -2,10 +2,6 @@ package com.fontoura.jabel.agenda;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.media.Image;
-import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v4.content.FileProvider;
@@ -16,16 +12,12 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.ImageView.ScaleType;
 import android.widget.Toast;
 
 import com.fontoura.jabel.agenda.dao.AlunoDAO;
 import com.fontoura.jabel.agenda.model.Aluno;
 
 import java.io.File;
-
-import static android.R.attr.bitmap;
 
 public class FormularioActivity extends AppCompatActivity {
 
@@ -89,11 +81,11 @@ public class FormularioActivity extends AppCompatActivity {
                 }else {
                     dao.insere(aluno);
                 }
-                    dao.close();
+                dao.close();
 
-                    Toast.makeText(FormularioActivity.this, "Aluno " + aluno.getNome() + " salvo!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(FormularioActivity.this, "Aluno " + aluno.getNome() + " salvo!", Toast.LENGTH_SHORT).show();
 
-                    finish();
+                finish();
 
                 break;
         }

@@ -71,6 +71,13 @@ public class AlunosAdapter extends BaseAdapter{
         TextView campoTelefone = (TextView) view.findViewById(R.id.item_telefone);
         campoTelefone.setText(aluno.getTelefone());
 
+        //Landsacpe
+        TextView campoEndereco = (TextView) view.findViewById(R.id.item_endereco);
+        if(campoEndereco != null) campoEndereco.setText(aluno.getEndereco());
+
+        TextView campoSite = (TextView) view.findViewById(R.id.item_site);
+        if(campoSite != null) campoSite.setText(aluno.getSite());
+
         return view;
     }
 }
